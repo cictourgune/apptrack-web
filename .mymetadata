@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="apptrack"
+  id="myeclipse.1342600184585"
+  context-root="/apptrack"
+  j2ee-spec="5.0"
+  archive="apptrack.war">
+  <attributes>
+    <attribute name="webrootdir" value="war" />
+  </attributes>
+</project-module>
+

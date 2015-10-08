@@ -1,0 +1,14 @@
+Cosas a tener en cuenta para subir a producción.
+•	Actualizar base de datos de producción si hubo cambios
+o		Datos: 10.10.0.121 / user:apptrack / pass:cictourgune4$s
+		Para la BD developer: 10.10.0.120 / user:developer / pass:cictourgune4$s
+•	En el proyecto web
+		Modificar config.properties "it3labprojects.tourgune.org"
+o		Configurar el applicationContext.xml con los datos de la base de datos de producción
+•	He subido a http://it3labprojects.tourgune.org/downloads/apptrack-sdk.zip la documentación y tutorial de apptrack. 
+o		Para eso he creado una carpeta “downloads” y dentro otra “apptrack-sdk” con los ficheros. He zipeado las dos carpetas, he cambiado el .zip por .war de la carpeta “downloads” y la he desplegado en el tomcat
+o		He tenido que cambiar el documento y los proyectos de ejemplo para que el AndroidManifest.xml tuviera el servidor de producción en la configuración.
+o		El documento del tutorial lo he subido a http://intranet.tourgune.org/proyectos/encurso/sinprograma/it3lab/apptrack/DocumentosDeTrabajo/Documentacion
+ 
+Cambiar la versión en el header.jsp para forzar a que se descarguen los .js
+ 

@@ -1,0 +1,51 @@
+
+ .ui-btn-active-list {
+	border: 1px solid #B2B2B2 /*{global-active-border}*/;
+	background: #B2B2B2 /*{global-active-background-color}*/;
+	
+}
+ 
+ 
+ #comparar-page .ui-dialog-contain {
+	width: 92.5%;
+	max-width: 1500px;
+	margin: 10% auto 15px auto;
+	padding: 0;
+	position: relative;
+	top: -15px;
+}
+
+
+ * {
+    font-family: 'Open Sans',sans-serif !important;
+    /*font-weight:normal  !important;*/
+}  
+
+/* .ui-body-a, .ui-body-a input, .ui-body-a select, .ui-body-a textarea, .ui-body-a button {
+    font-family: Calibri,Arial,sans-serif;
+}  */
+
+
+#panel {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  margin-left: -180px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  width: 350px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+	#panel {
+		visibility:hidden;
+	} 
+}
+
+ 
+
+ 

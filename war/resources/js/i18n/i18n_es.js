@@ -1,0 +1,61 @@
+Idioma.add('es', {
+// Header
+	'user' : 'Usuario',
+	'pass' : 'Contraseña',
+	'signin' : 'Acceder',
+	'signup' : 'Registro',
+	'welcome' : 'Bienvenido',
+	'exit' : 'Salir',
+	
+// Panel Control
+	'panel' : 'Panel de Control',
+	'newPage' : 'Nueva Página',
+	'deleteAllPages' : 'Eliminar Todas',
+	'listPages' : 'Listado Páginas',
+	'view' : 'Ver',
+	'edit' : 'Editar',
+	'remove' : 'Eliminar',
+	'warnings' : 'Avisos',
+	'confirmation_title' : 'Confirmación',
+	'confirmation_text' : '¿Está usted seguro?',
+	
+// Home
+	'elements' : 'Elementos',
+	'background' : 'Fondo',
+	'header' : 'Encabezado',
+	'footer' : 'Pie',
+	'paragraph' : 'Párrafo',	
+	'textfield' : 'Campo de texto',	
+	'image' : 'Imagen',
+	'map' : 'Mapa',
+	'qrcode' : 'QR',
+	'add' : 'Añadir',
+	'colour' : 'Color',
+	'help' : 'Ayuda',
+	'generate' : 'Generar',
+	'text' : 'texto',
+	'label' : 'etiqueta',
+	'url' : 'URL',
+	'latitude' : 'latitud',
+	'longitude' : 'longitud',
+	'selectPointMap' : 'Seleccione un punto en el mapa',
+	'accept' : 'Aceptar',
+	'cancel' : 'Cancelar',
+	'next' : 'Siguiente',
+	'createQR' : '¿Crear QR?',
+	'qrNotModify' : 'Si crea el QR, no podrá modificar la página creada. ¿Desea continuar?',
+	'qrWhere' : '¿Dónde ubicará el código QR?',
+	'qrSaveInfo' : 'Para guardar el código QR, pulsa el botón derecho del ratón y selecciona "Guardar imagen como..."',
+	'yes' : 'Sí',
+	'no' : 'No',
+
+	// Registro
+	'nombre_registro' : 'Nombre',
+	'password_registro' : 'Contraseña',
+	'repite_password_registro' : 'Repite contraseña',
+	'email_registro' : 'Email',
+	'aceptar_registro' : 'Aceptar',
+	'cancelar_registro' : 'Cancelar',
+	'titulo_registro' : 'Registro de usuario'
+				
+});
